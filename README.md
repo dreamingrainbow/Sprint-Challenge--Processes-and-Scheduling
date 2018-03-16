@@ -6,13 +6,19 @@ Add your answers inline, below, with your pull request.
 
 1. List all of the main states a process may be in at any point in time on a
    standard Unix system. Briefly explain what each of these states mean.
-
+	Waiting, Running, and Blocked
+	A) Waiting or queued to be processed.
+	B) Running or Currently Executing Code.
+	C) Blocked or Executing code that is hung, or not available.
+	
 2. What is a Zombie Process? How does it get created? How does it get destroyed?
-
+	A zombie process is a process that caught a cold, died, and came back wanting to eat my brains....
+	
 3. Describe the job of the Scheduler in the OS in general.
-
+	If I had the job of the Scheduler, I would be exhausted. Telling everyone when to get up, when to sit down, when to run slow, when to run fast and when to jump of the brige....
+	
 4. Describe the benefits of the MLFQ over a plain Round-Robin scheduler.
-
+	
 ## Programming Exercise: The Lambda School Shell (`lssh`)
 
 This program implements a new shell that you can use to run commands from in
